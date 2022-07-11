@@ -16,7 +16,7 @@ setup(
     license="BSD",
     keywords="biology variant gene taxon species drug annotation web service client api myvariant mygene",
     url="https://github.com/biothings/biothings_client.py",
-    packages=find_packages(),
+    packages=find_packages(exclude=['tests/*', ]),
     long_description=read('README.rst'),
     classifiers=[
         "Programming Language :: Python",
